@@ -1,5 +1,7 @@
 package be.ricoro.flashlight;
 
+// Rico Impens
+
 
 import android.Manifest;
 import android.app.Activity;
