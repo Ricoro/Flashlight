@@ -8,7 +8,19 @@
     tools:context="be.ricoro.flashlight.MainActivity"
     tools:layout_editor_absoluteY="25dp"
     tools:layout_editor_absoluteX="0dp">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="© 2017 Rico Impens    All Rights Reserved."
+    android:textColor="@color/colorPrimary"
+    android:textStyle="bold"
 
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.996">
+</TextView>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
