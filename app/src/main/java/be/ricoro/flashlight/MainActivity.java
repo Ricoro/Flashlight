@@ -2,8 +2,6 @@ package be.ricoro.flashlight;
 
 
 import android.Manifest;
-import android.app.Activity;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.pm.PackageManager;
 import android.hardware.Camera;
@@ -17,9 +15,6 @@ public class MainActivity extends AppCompatActivity {
     ImageButton imageButton;
     Camera camera;
     Camera.Parameters parameters;
-    Context context;
-    Activity activity;
-    private static final int PERMS_REQUEST_CODE = 123;
 
     boolean isFlash = false;
     boolean isOn = false;
